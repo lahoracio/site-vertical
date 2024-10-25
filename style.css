@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-align: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+header{
+    background-color: #333;
+    padding: 16px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    color: white;
+}
