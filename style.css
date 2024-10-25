@@ -10,9 +10,14 @@ ul, ol, li {
     list-style: none;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
 header{
     background-color: #333;
     padding: 16px;
+    position: fixed;
+    width: 100vw;
 }
 header nav ul {
     display: flex;
@@ -20,4 +25,29 @@ header nav ul {
 }
 header nav a {
     color: white;
+}
+
+header nav a:hover{
+    background-color: tomato;
+    transition: 1s;
+
+}
+
+.grupo {
+    height: 100vh;
+}
+#vermelho{
+    background-color: tomato;
+}
+#verde {
+    background-color: aquamarine;
+}
+#azul {
+    background-color: blue;
+}
+#amarelo{
+    background-color: yellow;
+}
+#roxo{
+    background-color: purple;
 }
