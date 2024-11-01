@@ -10,6 +10,7 @@ ul, ol, li {
     list-style: none;
 }
 
+
 html, body{
     scroll-behavior: smooth;
 }
@@ -33,15 +34,30 @@ header nav a:hover{
 
 }
 
+.containertexto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .grupo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+    text-align: center;
 }
 #vermelho{
-    background-color: tomato;
+    background-color: tomato; 
 }
-#verde {
+
+#verde{
     background-color: aquamarine;
+
 }
+
+
 #azul {
     background-color: blue;
 }
@@ -50,4 +66,21 @@ header nav a:hover{
 }
 #roxo{
     background-color: purple;
+}
+
+.grupo h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.grupo h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+    max-width: 600px;
+}
+.grupo img{
+    width: 600px;
+    height: auto;
+    margin: 20px;
+    max-width: 90%;
+
 }
